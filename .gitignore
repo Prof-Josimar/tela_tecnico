@@ -1,0 +1,30 @@
+# Dependências do Composer
+/vendor/
+
+# Variáveis de ambiente / credenciais
+.env
+.env.*
+!.env.example
+
+# Logs e cache
+*.log
+/storage/logs/
+/cache/
+/tmp/
+
+# Arquivos de IDE e editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ferramentas de teste/análise
+.phpunit.result.cache
+.phpunit.cache/
+.php-cs-fixer.cache
+.phpstan.cache
